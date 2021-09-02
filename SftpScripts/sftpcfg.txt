@@ -1,0 +1,11 @@
+# open connection to sftp server
+open sftp://User:Passwort@Host
+ 
+# set file transfer mode to ascii or binary
+ascii
+ 
+# Upload file
+put "C:\Path\To\File\" /
+ 
+#exit winscp
+exit
